@@ -2,8 +2,9 @@ package com.lzy.camerata.dto;
 
 public class GithubUserDTO {
     private String name;
-    private long id;
+    private long Id;
     private String bio;
+    private String login;
 
     public String getName() {
         return name;
@@ -14,11 +15,11 @@ public class GithubUserDTO {
     }
 
     public long getId() {
-        return id;
+        return Id;
     }
 
     public void setId(long id) {
-        this.id = id;
+        Id = id;
     }
 
     public String getBio() {
@@ -27,5 +28,13 @@ public class GithubUserDTO {
 
     public void setBio(String bio) {
         this.bio = bio;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
     }
 }
